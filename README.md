@@ -16,9 +16,8 @@ Verifies the finite computations in Lemma K-presieved. The script checks the thr
 
 Together these imply the lemma with constant
 
-\[
 K = 1.146.
-\]
+
 
 ## Running the scripts
 
