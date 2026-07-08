@@ -10,9 +10,9 @@ The scripts are intended to be readable and reproducible. They use only the Pyth
 
 Verifies the finite computations in Lemma K-presieved. The script checks the three numerical bounds used in the proof:
 
-1. Case 1: the large-\(w\) bound is less than `1.0651`;
-2. Case 2: the finite maximum for \(2 \leq w < 286\), \(z \geq 286\), is less than `1.1282`;
-3. Case 3: the finite supremum for \(z_0 \leq z < 286\) is less than `1.1458`.
+1. Case 1: the large-w bound is less than `1.0651`;
+2. Case 2: the finite maximum for 2 \leq w < 286, z \geq 286, is less than `1.1282`;
+3. Case 3: the finite supremum for z_0 \leq z < 286 is less than `1.1458`.
 
 Together these imply the lemma with constant
 
