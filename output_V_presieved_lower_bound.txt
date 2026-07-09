@@ -1,0 +1,13 @@
+Finite product computation
+--------------------------
+limit            = 1.00e+10
+segment width    = 1.00e+08
+number of primes = 455052511
+expected pi      = 455052511
+prime count pass = True
+product          = 2.355085096334562540e-03
+
+tail exponent    = 6.2694
+lemma constant   = 1.243862654856732863e+00
+target           = 1.243000000000000105e+00
+pass             = True
