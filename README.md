@@ -19,13 +19,13 @@ $$
 K=1.146
 $$
 
-for \(z\geq z_0\), and
+for $z\geq z_0$, and
 
-\[
+$$
 K=1.097
-\]
+$$
 
-for \(z\geq 10^8\).
+for $z\geq 10^8$.
 
 The corresponding output is recorded in:
 
@@ -36,13 +36,13 @@ output_K_presieved.txt
 ### `verify_V_presieved_lower_bound.py`
 
 Computes the finite prime product used in the lower bound for the
-main-term factor \(V(z)\). It verifies the numerical computation leading
+main-term factor $V(z)$. It verifies the numerical computation leading
 to
 
-\[
+$$
 V(z)\geq \frac{1.241}{\log^2 z}
 \qquad (z\geq 10^8).
-\]
+$$
 
 The corresponding output is recorded in:
 
@@ -54,17 +54,17 @@ output_V_presieved_lower_bound.txt
 
 Performs the finite verification for the intermediate range
 
-\[
+$$
 z_0<z\leq 10^8.
-\]
+$$
 
 The script constructs a finite covering by intervals and verifies, on
 each interval, that the lower bound for the sifted sum is positive for
 at least one value of
 
-\[
+$$
 \delta\in\{0.20,0.60,0.75,0.85,0.93\}.
-\]
+$$
 
 A logarithmic safety margin of \(0.10\) is used when selecting interval
 endpoints, so the accepted inequalities do not depend on subtracting
