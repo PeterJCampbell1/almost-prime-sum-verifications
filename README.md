@@ -1,4 +1,3 @@
-````markdown
 # Verification scripts for explicit almost-prime computations
 
 This repository contains the Python scripts used to verify the finite
@@ -91,4 +90,3 @@ On systems where Python 3 is invoked using `python`, replace `python3`
 with `python`.
 
 The included output files were generated from the corresponding scripts.
-````
