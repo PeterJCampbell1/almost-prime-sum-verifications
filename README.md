@@ -55,7 +55,7 @@ output_V_presieved_lower_bound.txt
 Performs the finite verification for the intermediate range
 
 $$
-z_0<z\leq 10^8.
+z_0 < z \leq 10^8.
 $$
 
 The script constructs a finite covering by intervals and verifies, on
