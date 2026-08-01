@@ -1,13 +1,18 @@
 Finite product computation
 --------------------------
-limit            = 1.00e+10
-segment width    = 1.00e+08
-number of primes = 455052511
-expected pi      = 455052511
-prime count pass = True
-product          = 2.355085096334562540e-03
+limit                 = 1.00e+08
+number of primes      = 5761455
+expected pi           = 5761455
+prime count pass      = True
+product               = 3.679795157125054748e-03
+finite lower bound    = 3.679700000000000158e-03
+finite product pass   = True
 
-tail exponent    = 6.2694
-lemma constant   = 1.243862654856732863e+00
-target           = 1.243000000000000105e+00
-pass             = True
+Lemma verification
+------------------
+tail exponent         = 5.821
+proof constant        = 1.241196641993059346e+00
+target                = 1.241000000000000103e+00
+proof constant pass   = True
+unrounded constant    = 1.241228739366236455e+00
+overall pass          = True

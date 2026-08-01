@@ -34,10 +34,38 @@ attained at z      = 43+
 case 3 pass        = True
 
 
+Case 4: large-w constant for z >= z1
+-------------------------------------
+z1                = 100000000
+lower prime       = 293
+cutoff            = 100000
+
+computed constant = 1.03558668644906
+target bound      = 1.03560000000000
+case 4 pass       = True
+
+
+Case 5: small-w constant for z >= z1
+------------------------------------
+w endpoint                 = 286
+large-tail prime           = 293
+finite product up to prime = 283
+pre-sieved primes          = [3]
+
+computed constant          = 1.09687546551376
+target bound               = 1.09690000000000
+attained at w              = 5
+case 5 pass                = True
+
+
 Overall verification
 --------------------
-lemma K bound              = 1.14600000000000
-case 1 bound < lemma bound = True
-case 2 bound < lemma bound = True
-case 3 bound < lemma bound = True
-overall pass               = True
+lemma K bound assertion (1) = 1.14600000000000
+case 1 bound < lemma bound  = True
+case 2 bound < lemma bound  = True
+case 3 bound < lemma bound  = True
+pass of assertion (1)       = True
+lemma K bound assertion (2) = 1.09700000000000
+case 4 bound < lemma bound  = True
+case 5 bound < lemma bound  = True
+pass of assertion (2)       = True
