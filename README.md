@@ -66,7 +66,7 @@ $$
 \delta\in\{0.20,0.60,0.75,0.85,0.93\}.
 $$
 
-A logarithmic safety margin of \(0.10\) is used when selecting interval
+A logarithmic safety margin of $0.10$ is used when selecting interval
 endpoints, so the accepted inequalities do not depend on subtracting
 nearly equal floating-point quantities.
 
