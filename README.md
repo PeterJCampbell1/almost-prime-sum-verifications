@@ -11,13 +11,13 @@ Python 3 and use only the Python standard library.
 ### `verify_K_presieved.py`
 
 Verifies the finite computations used to establish the dimension
-condition after pre-sieving by \(3\). In particular, it checks the
+condition after pre-sieving by $3$. In particular, it checks the
 numerical bounds arising in the five cases of the proof of the
 dimension-condition lemma and confirms the constants
 
-\[
+$$
 K=1.146
-\]
+$$
 
 for \(z\geq z_0\), and
 
